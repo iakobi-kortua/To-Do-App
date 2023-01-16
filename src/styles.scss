@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+
+.green {
+    width: 32px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(40, 185, 40);
+}
+
+.blue {
+    width: 54px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgba(56, 56, 222, 0.842);
+}
+
+.red {
+    width: 33px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(139, 25, 25);
+}
