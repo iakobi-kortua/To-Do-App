@@ -1,0 +1,7 @@
+<div class="choose-task">
+    <input type="text" placeholder="Task Name" [(ngModel)]="inputValue">
+    <select [(ngModel)]="selectedValue">
+      <option *ngFor="let c of difficulty" [ngValue]="c">{{c}}</option>
+    </select>
+    <button (click)="addTask(inputValue,selectedValue)">Add</button>
+</div>
